@@ -7,12 +7,15 @@
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
-  <description>Adds a 'market value' filter to stockpile and ingredient selectors.
+  <description><![CDATA[<color=#1a8bff><b>Market Value Filter</b></color>
 
-Inspired by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2178652457]Perishable Spoil Time Filter[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2912343138]it's 1.4 port[/url].
+Adds a 'market value' filter to stockpile and ingredient selectors.
+Inspired by <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2178652457">Perishable Spoil Time Filter</a> and <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2912343138">it's 1.4 port</a>.
 
-[url=https://ko-fi.com/K3K81Z3W5][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
-</description>
+https://github.com/zed-0xff/RW-MarketValueFilter
+
+<color=#1a8bff><b>Support me</b></color>
+https://ko-fi.com/K3K81Z3W5 or https://www.patreon.com/zed_0xff]]></description>
   <modDependencies>
       <li>
           <packageId>brrainz.harmony</packageId>

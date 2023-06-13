@@ -187,8 +187,9 @@ namespace MarketValueFilter
 
         public static void CopyAllowancesFrom_Postfix(ThingFilter __instance, ThingFilter other)
         {
-            MyWorldComponent world = Find.World.GetComponent<MyWorldComponent>();
+            if (Find.World == null) return; // "Terraform Rimworld" mod
 
+            MyWorldComponent world = Find.World.GetComponent<MyWorldComponent>();
             ref IntRange raw = ref world.getMarketValue(__instance);
             raw = world.getMarketValue(other);
         }
