@@ -9,6 +9,7 @@
 .idea
 .vs
 Thumbs.db
+obj
 
 *.bak
 *.cache
